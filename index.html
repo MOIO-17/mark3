@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cumbre — Café de día · Coctelería de noche</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header">
+    <div class="nav-wrap">
+      <div class="brand">
+        <img src="logo.png" alt="Cumbre" class="logo-img">
+        <span class="brand-name">CUMBRE</span>
+      </div>
+      <nav class="main-nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#concepto">Concepto</a>
+        <a href="#menu">Menú</a>
+        <a href="#ubicacion">Ubicación</a>
+      </nav>
+      <button id="toggleTema" class="toggle-btn" aria-label="Cambiar entre día y noche">
+        Modo Día
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>CUMBRE</h1>
+      <p class="slogan">"Dos momentos, una misma cumbre."</p>
+      <p class="subtitle">Café de día · Coctelería de noche</p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary">Ver el menú</a>
+        <a href="#ubicacion" class="btn btn-outline">Cómo llegar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONCEPTO ===================== -->
+  <section id="concepto" class="concepto">
+    <h2>Un mismo espacio, dos experiencias</h2>
+    <div class="concepto-grid">
+      <div class="concepto-card dia">
+        <h3>De día</h3>
+        <p>Cafetería de especialidad: café de origen boliviano, pastelería básica pero poco común y un ambiente cálido para trabajar, estudiar o reunirte con calma.</p>
+      </div>
+      <div class="concepto-card noche">
+        <h3>De noche</h3>
+        <p>El mismo lugar se transforma: coctelería sencilla con ingredientes andinos poco comunes, luz cálida y una atmósfera pensada para las noches frías de Potosí.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MENÚ ===================== -->
+  <section id="menu" class="menu-section">
+    <h2>Nuestro menú</h2>
+    <p class="menu-intro">15 preparaciones sencillas, pensadas para elaborarse sin equipo costoso.</p>
+
+    <!-- ---- MENÚ DE DÍA ---- -->
+    <h3 class="menu-subtitulo dia-color">Día — Café y pastelería</h3>
+    <div class="menu-grid">
+
+      <article class="menu-card">
+        <img src="logo1.png" alt="Pan brioche con costra de masa dulce">
+        <div class="card-body">
+          <h4>Pan Brioche con Costra de Masa Dulce</h4>
+          <p>Brioche horneado con una costra crocante de masa dulce por encima; se sirve tibio con mantequilla.</p>
+          <span class="precio">Bs. 18</span>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <img src="logo2.png" alt="Mini tartas de maracuyá">
+        <div class="card-body">
+          <h4>Mini Tartas de Maracuyá</h4>
+          <p>Tartaletas individuales de maracuyá sobre base de galleta, de armado sencillo y sin horneado adicional.</p>
+          <span class="precio">Bs. 16</span>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <img src="logo3.jpg" alt="Alfajor de quinua reventada">
+        <div class="card-body">
+          <h4>Alfajor de Quinua Reventada</h4>
+          <p>Galletas de quinua reventada rellenas de manjar de tumbo; se arma en frío, sin horneado.</p>
+          <span class="precio">Bs. 15</span>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <img src="logo4.jpg" alt="Café con leche condensada">
+        <div class="card-body">
+          <h4>Café con Leche Condensada</h4>
+          <p>Espresso fuerte con leche condensada, servido caliente o sobre hielo.</p>
+          <span class="precio">Bs. 14</span>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <img src="logo5.jpg" alt="Cheesecake de tumbo sin horno">
+        <div class="card-body">
+          <h4>Cheesecake de Tumbo sin Horno</h4>
+          <p>Base de galleta, queso crema y coulis de tumbo; ensamblaje en frío, sin cocción.</p>
+          <span class="precio">Bs. 25</span>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <img src="logo6.jpg" alt="Barritas de tarwi y miel de caña">
+        <div class="card-body">
+          <h4>Barritas de Tarwi y Miel de Caña</h4>
+          <p>Barra fría de tarwi tostado, miel de caña y frutos secos; ingrediente andino poco común en repostería.</p>
+          <span class="precio">Bs. 16</span>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <img src="logo7.jpg" alt="Café tonic andino">
+        <div class="card-body">
+          <h4>Café Tonic Andino</h4>
+          <p>Espresso frío sobre agua tónica con un toque de cáscara de naranja.</p>
+          <span class="precio">Bs. 22</span>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- ---- MENÚ DE NOCHE ---- -->
+    <h3 class="menu-subtitulo noche-color">Noche — Coctelería y piqueos</h3>
+    <div class="menu-grid">
+
+      <article class="menu-card card-noche">
+        <img src="logo8.jpg" alt="Café con whisky">
+        <div class="card-body">
+          <h4>Café con Whisky</h4>
+          <p>Café caliente con un shot de whisky y una capa de crema batida flotando encima.</p>
+          <span class="precio">Bs. 32</span>
+        </div>
+      </article>
+
+      <article class="menu-card card-noche">
+        <img src="logo9.jpg" alt="Helado de whisky con crema y leche">
+        <div class="card-body">
+          <h4>Helado de Whisky</h4>
+          <p>Helado artesanal de whisky elaborado con crema y leche, sin máquina de helados compleja.</p>
+          <span class="precio">Bs. 24</span>
+        </div>
+      </article>
+
+      <article class="menu-card card-noche">
+        <img src="logo10.jpg" alt="Milkshake de vino">
+        <div class="card-body">
+          <h4>Milkshake de Vino</h4>
+          <p>Batido cremoso de vino tinto con helado y un toque de canela.</p>
+          <span class="precio">Bs. 28</span>
+        </div>
+      </article>
+
+      <article class="menu-card card-noche">
+        <img src="logo11.jpg" alt="Affogato con amaretto">
+        <div class="card-body">
+          <h4>Affogato con Amaretto</h4>
+          <p>Espresso caliente vertido sobre una bocha de helado con un chorrito de amaretto.</p>
+          <span class="precio">Bs. 26</span>
+        </div>
+      </article>
+
+      <article class="menu-card card-noche">
+        <img src="logo12.jpg" alt="Trufas de chocolate y amaretto">
+        <div class="card-body">
+          <h4>Trufas de Chocolate y Amaretto</h4>
+          <p>Trufas de chocolate boliviano con un toque de amaretto, rebozadas en cacao.</p>
+          <span class="precio">Bs. 18</span>
+        </div>
+      </article>
+
+      <article class="menu-card card-noche">
+        <img src="logo13.jpg" alt="Cumbre Mule">
+        <div class="card-body">
+          <h4>Cumbre Mule</h4>
+          <p>Singani, ginger beer, lima y menta; armado directo en vaso con hielo, sin batido.</p>
+          <span class="precio">Bs. 35</span>
+        </div>
+      </article>
+
+      <article class="menu-card card-noche">
+        <img src="logo14.jpg" alt="Tumbo Spritz">
+        <div class="card-body">
+          <h4>Tumbo Spritz</h4>
+          <p>Singani, puré de tumbo, prosecco y soda; cóctel ligero de armado directo.</p>
+          <span class="precio">Bs. 36</span>
+        </div>
+      </article>
+
+      <article class="menu-card card-noche">
+        <img src="logo15.jpg" alt="Infusión de altura con singani">
+        <div class="card-body">
+          <h4>Infusión de Altura con Singani</h4>
+          <p>Infusión caliente de muña y manzanilla con un toque de singani; ideal para las noches frías.</p>
+          <span class="precio">Bs. 28</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===================== UBICACIÓN ===================== -->
+  <section id="ubicacion" class="ubicacion">
+    <h2>Encuéntranos</h2>
+    <p>Centro histórico de Potosí, a pasos de la Plaza 10 de Noviembre y de la Universidad Autónoma Tomás Frías.</p>
+    <div class="horarios">
+      <div><strong>Día:</strong> 08:00 – 19:00</div>
+      <div><strong>Noche:</strong> 19:00 – 02:00</div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <p>CUMBRE — Café de día · Coctelería de noche</p>
+    <p class="footer-sub">Potosí, Bolivia</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
